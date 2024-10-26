@@ -1,0 +1,109 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+.body{
+  font-family: "Alfa Slab One", serif;
+  font-weight: 400;
+  font-style: normal
+  margin: 0px;
+  padding: 0px;
+  color: white;
+  background-color: black;
+  background-image: url(pexels-victorfreitas-841130.jpg);
+  background-size:cover;
+   height:auto; 
+  /* transform:translate(-50%,-50%); */
+  background-repeat:no-repeat;
+}
+.left{
+  /* border: 2px solid red; */
+  display: inline-block;
+  position: absolute;
+  top:12px;
+  left:20px;
+  /* width: 100px; */
+  
+}
+.mid{ 
+  display: block;
+width: 45%;
+  margin: 8px auto;
+  /* border: 2px solid red; */
+}
+.right{
+   /* border: 2px solid red; */
+  color: black;
+  
+  display: inline-block;
+  position: absolute;
+  top:12px;
+  right:20px;  
+}
+.navbar,li{
+  list-style: none;
+  display: inline-block;
+}
+.navbar,li,a{
+  text-decoration: none;
+  color: white;
+  padding: 0px 5px;
+  text-align:center;
+  font-size: 19px;
+  
+}
+.navbar,li,a:hover{
+  color: grey;
+  text-decoration: underline;
+}
+.left,img{
+  width: 80px;
+  border-radius: 50px;
+
+}
+.fit{
+  font-size: 15px;
+  text-align:center;
+}
+.btn{
+  margin: 2px 3px;
+  color: white;
+  background-color: #000000;
+  padding:2px 10px;
+  border-radius: 10px;
+  cursor:pointer;
+  text-align:center;
+  font-size:15px;
+}
+.btn:hover{
+  background-color: deeppink;
+}
+.container{
+  border: 2px solid white;
+  border-radius: 30px;
+  margin: 90px 10px;
+  padding: 60px 40px;
+  width: 33%;
+}
+.form-group input{
+  position: relative;
+  right: 25px;
+  text-align:center;
+  display:block;
+  padding:5px 3px;
+  width: 408px;
+  margin:5px;
+  margin-right:10px;
+  font-size:20px;
+  border-radius: 20px;
+}
+.container h1{
+  text-align:center;
+  font-size: 25px;
+  
+}
+.form-group button{
+ display: block;
+  width: 400;
+  margin:auto auto;
+}
