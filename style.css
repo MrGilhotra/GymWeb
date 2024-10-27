@@ -29,6 +29,7 @@ html {
   display: block;
 width: 45%;
   margin: 8px auto;
+  text-align:center;
   /* border: 2px solid red; */
 }
 .right{
@@ -40,11 +41,12 @@ width: 45%;
   top:12px;
   right:20px;  
 }
-.navbar,li{
+.navbar li{
   list-style: none;
   display: inline-block;
+  text-align:center;
 }
-.navbar,li,a{
+.navbar li a{
   text-decoration: none;
   color: white;
   padding: 0px 5px;
@@ -52,11 +54,11 @@ width: 45%;
   font-size: 19px;
   
 }
-.navbar,li,a:hover{
+.navbar li a:hover{
   color: grey;
   text-decoration: underline;
 }
-.left,img{
+.left img{
   width: 80px;
   border-radius: 50px;
 
@@ -83,6 +85,8 @@ width: 45%;
   border-radius: 30px;
   margin: 90px 10px;
   padding: 60px 40px;
+  /* padding-right:100px;
+  padding-left:100px; */
   width: 33%;
 }
 .form-group input{
@@ -96,8 +100,9 @@ width: 45%;
   margin-right:10px;
   font-size:20px;
   border-radius: 20px;
+  box-sizing:border-box;
 }
-.container h1{
+.container h2{
   text-align:center;
   font-size: 25px;
   
